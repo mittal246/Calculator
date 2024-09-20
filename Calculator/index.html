@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-xl bg-danger-subtle h-50">
+        <h1 class="text-center mt-5">Calculator</h1>
+        <h4 class="text-center">Crunching Numbers, The Smart Way!</h4>
+        <div class="row">
+            <div class=" col-12 offset-md-3 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Adding the output display area of calculator  -->
+                        <input id="display-output" readonly class="form-control form-control-lg text-end" type="text" aria-label=".form-control-lg example">
+                        <!-- Adding the buttons of calculator -->
+                        <div class="row gx-1">
+                        <!-- First row of button -->
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-2 border">(</button>
+                             </div>
+                            <div class="col-3">
+                             <button type="button" class="btn btn-light w-100 mt-2 border">)</button>
+                             </div>
+                            <div class="col-3">
+                             <button type="button" class="btn btn-light w-100 mt-2 border">%</button>
+                             </div>
+                            <div class="col-3">
+                             <button type="button" class="btn btn-light w-100 mt-2 border">AC</button>
+                              </div>
+                        <!-- Second row of Button -->
+                           
+                            <div class="col-3">
+                             <button type="button" class="btn btn-light w-100 mt-2 border">9</button>
+                                </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-2 border">8</button>
+                                </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-2 border">7</button>
+                             </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-light w-100 mt-2 border">/</button>
+                             </div>
+
+                                            
+                        <!-- Third row of button -->
+                         <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">6</button>
+                        </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">5</button>
+                        </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">4</button>
+                         </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">*</button>
+                         </div>
+                        <!-- Fourth row of button -->
+                        <div class="col-3">
+                         <button type="button" class="btn btn-light w-100 mt-2 border">3</button>
+                         </div>
+                        <div class="col-3">
+                         <button type="button" class="btn btn-light w-100 mt-2 border">2</button>
+                         </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">1</button>
+                         </div>
+                       <div class="col-3">
+                         <button type="button" class="btn btn-light w-100 mt-2 border">-</button>
+                         </div>
+
+                     <!-- Fifth row of button -->
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light w-100 mt-2 border">0</button>
+                         </div>
+                        <div class="col-3">
+                         <button type="button" class="btn btn-light w-100 mt-2 border">.</button>
+                         </div>
+                        <div class="col-3">
+                          <button type="button" class="btn btn-primary w-100 mt-2 border-primary">=</button>
+                          </div>
+                        <div class="col-3">
+                          <button type="button" class="btn btn-light w-100 mt-2 border">+</button>
+                         </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script src="script.js">
+</script>
+</body>
+</html>
